@@ -35,7 +35,7 @@ Before we get into how to accomplish this, let's understand what we're looking a
 
 Look at the transposed data. Notice how the transposed records are built one event at a time. We have to remember that, unlike programs running on batches of data, SAS Event Stream Processing windows process one event at a time. So, in the transpose window, a new event is produced every time it receives an event, as long as it conforms to what we specify in the configuration of the transpose window. Let's see how to do this in the ESP Studio.
 
- If you don't already have access to the SAS Event Stream Processing Studio, follow the directions [here](https://gitlab.sas.com/IOT/tutorials/ESP-tutorials/how-to-use-the-transpose-window/-/blob/master/doc/trial/readme.md) to gain access to the ESP Trial Environment.
+ If you don't already have access to the SAS Event Stream Processing Studio, follow the directions [here](https://www.sas.com/en_us/trials.html) to gain access to the ESP Trial Environment.
 
 ### Source Window Configuration
 
@@ -75,7 +75,7 @@ If done correctly, the properties panel of the Transpose window should look like
 
 ### Run Project and Load Data
 
-1. Download the file 'long_to_wide.csv' from [here](https://gitlab.sas.com/IOT/tutorials/ESP-tutorials/how-to-use-the-transpose-window/-/tree/master/files). 
+1. Copy the data in 'long_to_wide.csv' from [here](https://github.com/sassoftware/iot-transpose-window/blob/main/files/long_to_wide.csv) to a local file. 
 
 2. By this point, everything should be in place and ready to run. Make sure there are no spelling mistakes in the  field names in the two windows. Save the project by clicking on the disk icon, click 'Enter Test Mode' and then 'Run Test'. If the steps above have been followed correctly, there should be no errors and the project should be in a running state with no data present in the system.
 
@@ -151,7 +151,7 @@ An additional note about transposing data from wide to long, is that the Transpo
 
 ### Run Project and Load Data
 
-1. Download the file 'wide_to_long.csv' from [here](https://gitlab.sas.com/IOT/tutorials/ESP-tutorials/how-to-use-the-transpose-window/-/tree/master/files). 
+1. Copy the data in 'wide_to_long.csv' from [here](https://github.com/sassoftware/iot-transpose-window/blob/main/files/wide_to_long.csv) to a local file. 
 
 2. By this point, everything should be in place and ready to run. Make sure there are no spelling mistakes in the field names in the two windows. Save the project by clicking on the disk icon, click 'Enter Test Mode' and then 'Run Test'. If the steps above have been followed correctly, there should be no errors and the project should be in a running state with no data present in the system.
 
