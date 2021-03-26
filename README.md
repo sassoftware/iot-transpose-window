@@ -2,7 +2,16 @@
 
 This repo contains an explanation of how to use the Transpose window and a few examples to illustrate.
 
-[[_TOC_]]
+## Table of Contents
+
+* [Transposing data from long to wide](#transposing-data-from-long-to-wide)
+	* [Source Window Configuration](#source-window-configuration)
+	* [Transpose Window Long to Wide Configuration](#transpose-window-long-to-wide-configuration)
+	* [Run Project and Load Data](#run-project-and-load-data)
+* [Transposing Data from Wide to Long](#transposing-data-from-wide-to-long)
+	* [Source Window Configuration](#source-window-configuration)
+	* [Transpose Window Wide to Long Configuration](#transpose-window-wide-to-long-configuration)
+	* [Run Project and Load Data](#run-project-and-load-data)
 
 ## Transposing data from long to wide
 
