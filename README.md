@@ -1,5 +1,7 @@
 # How to use the Transpose window
 
+<img src="https://img.shields.io/badge/Category-Data%20Transformation-blue"> <img src="https://img.shields.io/badge/Sub--Category-Transpose-yellowgreen"> <img src="https://img.shields.io/badge/Difficulty-Intermediate-yellow"> <img src="https://img.shields.io/badge/Updated-Mar%202021-orange">
+
 This repo contains an explanation of how to use the Transpose window and a few examples to illustrate.
 
 ## Table of Contents
